@@ -36,8 +36,9 @@ const Footer = () => {
             <span className="font-bold text-xl">Galaxy Aparment</span>
             <br />
             <span className="text-base">
-              We are a non-profit organization dedicated to making a positive <br />
-              impact in the community through our volunteer programs.
+              We offer secure, clean, and comfortable apartments with all the
+              amenities you need. Located at the heart of the city, <br /> everything
+              is easily accessible from your new home.
             </span>
           </p>
         </aside>
@@ -82,7 +83,8 @@ const Footer = () => {
       <footer className="footer sm:footer-horizontal footer-center bg-base-200 text-base-content p-4">
         <aside>
           <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by Galaxy Apartment
+            Copyright © {new Date().getFullYear()} - All right reserved by
+            Galaxy Apartment
           </p>
         </aside>
       </footer>

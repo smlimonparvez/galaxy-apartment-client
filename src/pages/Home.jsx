@@ -51,11 +51,12 @@ const Home = () => {
       </div>
 
       {/* About Building */}
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row item-center p-5 gap-3">
         <div>
           <img
             src="https://i.postimg.cc/tJLGRwZq/3d-electric-car-building.jpg"
             alt=""
+            className="w-full rounded-xl"
           />
         </div>
         <div>
@@ -66,12 +67,34 @@ const Home = () => {
             with all the amenities you need. Located at the heart of the city,
             everything is easily accessible from your new home.
           </p>
+          <div className="flex flex-col md:flex-row gap-4 mt-6">
+            <div className="bg-white border p-4 rounded-xl shadow-md w-full md:w-1/3">
+              <h4 className="font-bold text-lg">Building Features</h4>
+              <p className="text-green-600 font-semibold">Luxury Apartments</p>
+              <p className="text-gray-500">
+                Experience the best in modern living with our luxury apartments.
+              </p>
+            </div>
+            <div className="bg-white border p-4 rounded-xl shadow-md w-full md:w-1/3">
+              <h4 className="font-bold text-lg">Amenities</h4>
+              <p className="text-green-600 font-semibold">Gym & Pool</p>
+              <p className="text-gray-500">
+                Enjoy our state-of-the-art gym and refreshing swimming pool.
+              </p>
+           </div>
+            <div className="bg-white border p-4 rounded-xl shadow-md w-full md:w-1/3">
+              <h4 className="font-bold text-lg">Security</h4>
+              <p className="text-green-600 font-semibold">24/7 Security</p>
+              <p className="text-gray-500">
+                Your safety is our priority with round-the-clock security.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-
       {/* Coupons Section */}
-      <div className="bg-blue-50 py-8">
-        <h3 className="text-2xl text-center font-semibold mb-6">
+      <div className="py-8">
+        <h3 className="text-3xl text-center font-semibold mb-6">
           Available Coupons
         </h3>
         <div className="flex flex-wrap justify-center gap-4 px-4">
@@ -92,7 +115,7 @@ const Home = () => {
 
       {/* Location Section */}
       <div className="bg-gray-100 p-8 text-center">
-        <h3 className="text-2xl font-semibold mb-4">Our Location</h3>
+        <h3 className="text-3xl font-semibold mb-4">Our Location</h3>
         <p className="mb-4 flex items-center justify-center gap-2 text-gray-700">
           <FaMapMarkerAlt /> 123 Zenith Road, City Center, Dhaka
         </p>
@@ -113,5 +136,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
