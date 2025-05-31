@@ -50,7 +50,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/posts"
+                to="/apartment"
                 className={({ isActive }) =>
                   isActive
                     ? "mr-3 text-base font-semibold text-blue-700 underline"
@@ -65,7 +65,7 @@ const Navbar = () => {
         <a className="btn btn-ghost text-xl">
           {" "}
           <img
-            className="w-16 h-12"
+            className="w-18 h-12"
             src="https://i.postimg.cc/MHnTWtLT/Building-Logo-1.png"
             alt=""
           />
@@ -90,7 +90,7 @@ const Navbar = () => {
           <li>
             {" "}
             <NavLink
-              to="/posts"
+              to="/apartment"
               className={({ isActive }) =>
                 isActive
                   ? "mr-3 text-base font-semibold text-blue-700 underline"

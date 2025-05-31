@@ -1,12 +1,27 @@
-# React + Vite
+# GALAXY APARTMENT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
 
-Currently, two official plugins are available:
+This project is the client-side application for galaxy apartment, providing a responsive and interactive user interface for users to interact with the platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
+- User authentication and authorization
+- Responsive design for desktop and mobile
+- Real-time data updates
+- RESTful API integration
+- Error handling and notifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## NPM Packages Used
+
+- **react**: Frontend UI library
+- **react-router-dom**: Routing and navigation
+- **axios**: HTTP client for API requests
+- **react-map**: For showing map location
+- **swipper**: For making slider
+- **tanstack-query**: HTTP client for API requests
+- **dotenv**: Environment variable management
+
+## Live URL
+
+(https://galaxy-apartment-939b0.web.app)
