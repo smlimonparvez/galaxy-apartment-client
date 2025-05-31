@@ -127,7 +127,7 @@ const Login = () => {
           <p>
             Don't have an account? Please{" "}
             <Link
-              to="/register"
+              to="/signup"
               className="underline cursor-pointer text-blue-600 text-base font-semibold"
             >
               Register
